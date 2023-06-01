@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORSCHEolution</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images-removebg-preview.png" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <audio id="play" autoplay loop>
+      <source src="./blast-138451.mp3" type="audio/mpeg" />
+    </audio>
+
+    <div class="horizontal-nav">
+      <a href="#pageone">Intro</a>
+      <a href="#pagethree">1930s</a>
+      <a href="#pagefour">1940s</a>
+      <a href="#pagefive">1950s</a>
+      <a href="#pagesix">1960s</a>
+      <a href="#pageseven">1970s</a>
+      <a href="#pageeight">1980s</a>
+      <a href="#pagenine">1990s</a>
+      <a href="#pageten">2000s</a>
+      <a href="#pageeleven">2010s</a>
+      <a href="#pagetwele">2020s</a>
+    </div>
+
+    <div class="nav">
+      <div class="nav-left">
+        <h3><span>PORSCHE</span>volution</h3>
+      </div>
+      <div class="nav-right">
+        <h4>© Ondrej Homola</h4>
+        <div class="sound">
+          <i onclick="playe()" id="letsgo" class="ri-volume-up-fill"></i>
+          <i
+            onclick="playestop()"
+            id="letsstop"
+            class="ri-volume-mute-fill"
+          ></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="loader">
+      <audio id="audioPlayer" autoplay>
+        <source src="./start.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+      <div class="textbox">
+        <h3><span>PORSCHE</span> volution</h3>
+        <p>Turn up the volume to enjoy full experience</p>
+      </div>
+      <button onclick="playAudio()">START EXPERIENCE</button>
+    </div>
+
+    <div class="main">
+      <div class="pageone page" id="pageone">
+        <h3>Ferdinand Porsche</h3>
+        <p>
+          The history of Porsche goes back to 1875 - the birth year of Ferdinand
+          Porsche. It is he who laid the foundations for a unique company with
+          strong ideals.
+        </p>
+      </div>
+
+      <div class="pagethree page" id="pagethree">
+        <h3>1930s</h3>
+        <p>
+          <span>Type 64 Racing Coupé:</span> Built for long-distance
+          ‘Berlin–Rom-Wagen’ endurance competition. Considered the forefathers
+          of all later Porsche sports cars.
+        </p>
+      </div>
+      <div class="pagefour page" id="pagefour">
+        <h3>1940s</h3>
+        <p>
+          <span>356 Speedster:</span> Porsche's first production automobile
+          started in Gmünd in Austria, where only 49 of these aluminum Porsches
+          were built.
+        </p>
+      </div>
+      <div class="pagefive page" id="pagefive">
+        <h3>1950s</h3>
+        <p>
+          <span>356 Carrera Cabriolet:</span> Shortly before Porsche celebrated
+          10th anniversary of 356 model, 356 had developed into one of the
+          world’s most respected sports cars.
+        </p>
+      </div>
+      <div class="pagesix page" id="pagesix">
+        <h3>1960s</h3>
+        <p>
+          <span>901: </span> Successor of Porsche 356. Between 14 September and
+          16 November 1964, 82 cars were built. Due to Peugeot was renamed to
+          911.
+        </p>
+      </div>
+      <div class="pageseven page" id="pageseven">
+        <h3>1970s</h3>
+        <p>
+          <span>911 Turbo:</span> At the Paris Auto Show Porsche presents the
+          911 Turbo – the world’s first production sports car with exhaust
+          turbocharger and pressure regulator.
+        </p>
+      </div>
+      <div class="pageeight page" id="pageeight">
+        <h3>1980s</h3>
+        <p>
+          <span>911 Carrera Speedster:</span> In 1984 the 911 celebrated it's
+          20th birthday. It had a lower and flatter windscreen and a simpler
+          manual top that folded beneath a fiberglass cover.
+        </p>
+      </div>
+      <div class="pagenine page" id="pagenine">
+        <h3>1990s</h3>
+        <p>
+          <span>911:</span> It’s got classic lines, albeit updated with plastic
+          bumpers, with modern technology such as 4x4 ABS and electronic
+          heating.
+        </p>
+      </div>
+      <div class="pageten page" id="pageten">
+        <h3>2000s</h3>
+        <p>
+          <span>911:</span> The sixth generation of the 911 series' the new 911
+          Turbo with 480PS six-speed manual transmission requires 3.9 seconds
+          from 0 to 100 km/h.
+        </p>
+      </div>
+      <div class="pageeleven page" id="pageeleven">
+        <h3>2010s</h3>
+        <p>
+          <span>911 Carrera 4S Coupe:</span> The iconic Porsche 911 sports car
+          celebrates its 50th birthday in 2013. Today's 911 still has many
+          stories to tell. Of heroic race victories, iconic deisgn, childhood
+          dreams. And of a timeless idea.
+        </p>
+      </div>
+      <div class="pagetwele page" id="pagetwele">
+        <h3>2020s</h3>
+        <p>The 911. Tradition Future. Since 1963.</p>
+      </div>
+
+      <div class="pagethirteen" id="pagethirteen">
+        <img
+          class="zoom"
+          src="./891-8916745_porsche-white-logo-emblem.png"
+          alt=""
+        />
+        <img
+          class="zoomout"
+          src="./891-8916745_porsche-white-logo-emblem.png"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+      integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"
+      integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
