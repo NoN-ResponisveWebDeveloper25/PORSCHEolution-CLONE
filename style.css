@@ -752,7 +752,7 @@
     .loader {
       width: 100vw;
       height: 100vh;
-      background-image: url(/landingpage.jpg);
+      background-image: url(./landingpage.jpg);
       background-size: cover;
       background-position: center;
       z-index: 999;
