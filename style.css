@@ -137,7 +137,7 @@
   .loader {
     width: 100vw;
     height: 100vh;
-    background-image: url(http://porschevolution.com/images/slides/landingpage.jpg);
+    background-image: url(./landingpage.jpg);
     background-size: cover;
     background-position: center;
     z-index: 999;
@@ -262,52 +262,52 @@
   
   .pageone {
     color: white;
-    background-image: url(http://porschevolution.com/images/slides/porsche.jpg);
+    background-image: url(./porsche.jpg);
   }
   
   .pagethree {
-    background-image: url(http://porschevolution.com/images/slides/1930.jpg);
+    background-image: url(./1930.jpg);
   }
   
   .pagefour {
-    background-image: url(http://porschevolution.com/images/slides/1940.jpg);
+    background-image: url(./1940.jpg);
     color: white;
   }
   
   .pagefive {
-    background-image: url(http://porschevolution.com/images/slides/1950.jpg);
+    background-image: url(./1950.jpg);
   }
   
   .pagesix {
-    background-image: url(http://porschevolution.com/images/slides/1960.jpg);
+    background-image: url(./1960.jpg);
     color: white;
   }
   
   .pageseven {
-    background-image: url(http://porschevolution.com/images/slides/1970.jpg);
+    background-image: url(./1970.jpg);
     color: white;
   }
   
   .pageeight {
-    background-image: url(http://porschevolution.com/images/slides/1980.jpg);
+    background-image: url(./1980.jpg);
   }
   
   .pagenine {
-    background-image: url(http://porschevolution.com/images/slides/1990.jpg);
+    background-image: url(./1990.jpg);
     color: white;
   }
   
   .pageten {
-    background-image: url(http://porschevolution.com/images/slides/2000.jpg);
+    background-image: url(./2000.jpg);
     color: white;
   }
   
   .pageeleven {
-    background-image: url(http://porschevolution.com/images/slides/2010.jpg);
+    background-image: url(./2010.jpg);
   }
   
   .pagetwele {
-    background-image: url(http://porschevolution.com/images/slides/2020.jpg);
+    background-image: url(./2020.mp3);
     color: white;
   }
   
@@ -444,7 +444,7 @@
     .loader {
       width: 100vw;
       height: 100vh;
-      background-image: url(http://porschevolution.com/images/slides/landingpage.jpg);
+      background-image: url(./porsche.jpg);
       background-size: cover;
       background-position: center;
       z-index: 999;
@@ -570,55 +570,56 @@
     }
   
     .pageone {
-      color: white;
-      background-image: url(http://porschevolution.com/images/slides/porsche.jpg);
-    }
-  
-    .pagethree {
-      background-image: url(http://porschevolution.com/images/slides/1930.jpg);
-    }
-  
-    .pagefour {
-      background-image: url(http://porschevolution.com/images/slides/1940.jpg);
-      color: white;
-    }
-  
-    .pagefive {
-      background-image: url(http://porschevolution.com/images/slides/1950.jpg);
-    }
-  
-    .pagesix {
-      background-image: url(http://porschevolution.com/images/slides/1960.jpg);
-      color: white;
-    }
-  
-    .pageseven {
-      background-image: url(http://porschevolution.com/images/slides/1970.jpg);
-      color: white;
-    }
-  
-    .pageeight {
-      background-image: url(http://porschevolution.com/images/slides/1980.jpg);
-    }
-  
-    .pagenine {
-      background-image: url(http://porschevolution.com/images/slides/1990.jpg);
-      color: white;
-    }
-  
-    .pageten {
-      background-image: url(http://porschevolution.com/images/slides/2000.jpg);
-      color: white;
-    }
-  
-    .pageeleven {
-      background-image: url(http://porschevolution.com/images/slides/2010.jpg);
-    }
-  
-    .pagetwele {
-      background-image: url(http://porschevolution.com/images/slides/2020.jpg);
-      color: white;
-    }
+        color: white;
+        background-image: url(./porsche.jpg);
+      }
+      
+      .pagethree {
+        background-image: url(./1930.jpg);
+      }
+      
+      .pagefour {
+        background-image: url(./1940.jpg);
+        color: white;
+      }
+      
+      .pagefive {
+        background-image: url(./1950.jpg);
+      }
+      
+      .pagesix {
+        background-image: url(./1960.jpg);
+        color: white;
+      }
+      
+      .pageseven {
+        background-image: url(./1970.jpg);
+        color: white;
+      }
+      
+      .pageeight {
+        background-image: url(./1980.jpg);
+      }
+      
+      .pagenine {
+        background-image: url(./1990.jpg);
+        color: white;
+      }
+      
+      .pageten {
+        background-image: url(./2000.jpg);
+        color: white;
+      }
+      
+      .pageeleven {
+        background-image: url(./2010.jpg);
+      }
+      
+      .pagetwele {
+        background-image: url(./2020.mp3);
+        color: white;
+      }
+      
   
     .pagethirteen {
       width: 100%;
@@ -751,7 +752,7 @@
     .loader {
       width: 100vw;
       height: 100vh;
-      background-image: url(http://porschevolution.com/images/slides/landingpage.jpg);
+      background-image: url(/landingpage.jpg);
       background-size: cover;
       background-position: center;
       z-index: 999;
@@ -875,56 +876,56 @@
     }
   
     .pageone {
-      color: white;
-      background-image: url(http://porschevolution.com/images/slides/porsche.jpg);
-    }
-  
-    .pagethree {
-      background-image: url(http://porschevolution.com/images/slides/1930.jpg);
-    }
-  
-    .pagefour {
-      background-image: url(http://porschevolution.com/images/slides/1940.jpg);
-      color: white;
-    }
-  
-    .pagefive {
-      background-image: url(http://porschevolution.com/images/slides/1950.jpg);
-    }
-  
-    .pagesix {
-      background-image: url(http://porschevolution.com/images/slides/1960.jpg);
-      color: white;
-    }
-  
-    .pageseven {
-      background-image: url(http://porschevolution.com/images/slides/1970.jpg);
-      color: white;
-    }
-  
-    .pageeight {
-      background-image: url(http://porschevolution.com/images/slides/1980.jpg);
-    }
-  
-    .pagenine {
-      background-image: url(http://porschevolution.com/images/slides/1990.jpg);
-      color: white;
-    }
-  
-    .pageten {
-      background-image: url(http://porschevolution.com/images/slides/2000.jpg);
-      color: white;
-    }
-  
-    .pageeleven {
-      background-image: url(http://porschevolution.com/images/slides/2010.jpg);
-    }
-  
-    .pagetwele {
-      background-image: url(http://porschevolution.com/images/slides/2020.jpg);
-      color: white;
-    }
-  
+        color: white;
+        background-image: url(./porsche.jpg);
+      }
+      
+      .pagethree {
+        background-image: url(./1930.jpg);
+      }
+      
+      .pagefour {
+        background-image: url(./1940.jpg);
+        color: white;
+      }
+      
+      .pagefive {
+        background-image: url(./1950.jpg);
+      }
+      
+      .pagesix {
+        background-image: url(./1960.jpg);
+        color: white;
+      }
+      
+      .pageseven {
+        background-image: url(./1970.jpg);
+        color: white;
+      }
+      
+      .pageeight {
+        background-image: url(./1980.jpg);
+      }
+      
+      .pagenine {
+        background-image: url(./1990.jpg);
+        color: white;
+      }
+      
+      .pageten {
+        background-image: url(./2000.jpg);
+        color: white;
+      }
+      
+      .pageeleven {
+        background-image: url(./2010.jpg);
+      }
+      
+      .pagetwele {
+        background-image: url(./2020.mp3);
+        color: white;
+      }
+      
     .pagethirteen {
       width: 100%;
       height: 200vh;
