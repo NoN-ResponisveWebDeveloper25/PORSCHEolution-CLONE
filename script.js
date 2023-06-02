@@ -34,14 +34,20 @@ down.forEach(function (elem) {
   });
 });
 
+var main=document.querySelector(".main")
 var button = document.querySelector(".loader>button");
 
 var load = document.querySelector(".loader");
 
 button.addEventListener("click", function () {
   load.style.audio;
+  
+  load.style.height="0%";
   load.style.top = "-120%";
+  main.style.display="initial"
+
 });
+
 
 function playe() {
   var audioe = document.getElementById("play");
@@ -71,18 +77,21 @@ sound.addEventListener("click", function () {
   }
 });
 
+
+
+
 gsap.from(".zoom", {
-  scale: 0,
-  opacity: 0,
+  scale:0,
+  opacity:0,
 
   scrollTrigger: {
-    scroller: "body",
-    start: "top 50%",
-    end: "top 0%",
-    trigger: ".zoom",
-    scrub: 2,
-    pin: true,
-    // markers:true,
+    scroller:"body",
+    start:"top 50%",
+    end:"top 0%",
+    trigger:".zoom",
+    scrub:true,
+     pin: true,
+    markers:true,
   },
 });
 
