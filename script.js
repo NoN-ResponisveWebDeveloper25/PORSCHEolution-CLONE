@@ -44,7 +44,7 @@ button.addEventListener("click", function () {
   
   load.style.height="0%";
   load.style.top = "-120%";
-   main.style.position="initial"
+  main.style.position="initial";
 
 });
 
