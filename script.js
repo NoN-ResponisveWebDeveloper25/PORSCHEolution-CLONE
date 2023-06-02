@@ -91,7 +91,7 @@ gsap.from(".zoom", {
     trigger:".zoom",
     scrub:true,
      pin: true,
-    markers:true,
+    // markers:true,
   },
 });
 
