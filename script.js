@@ -81,3 +81,17 @@ function playAudio() {
   var audio = document.getElementById("audioPlayer");
   audio.play();
 }
+
+
+gsap.from(".zoom",{
+  opacity:0,
+  scale:0,
+  scrollTrigger:{
+    trigger:".pagethirteen",
+    scroller:"body",
+    start:"top 100%",
+    end:"top 0%",
+    scrub:true,
+    // markers:true,
+    }
+})
