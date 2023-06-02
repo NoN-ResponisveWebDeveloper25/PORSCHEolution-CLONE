@@ -77,24 +77,6 @@ sound.addEventListener("click", function () {
   }
 });
 
-
-
-
-gsap.from(".zoom", {
-  scale:0,
-  opacity:0,
-
-  scrollTrigger: {
-    scroller:"body",
-    start:"top 50%",
-    end:"top 0%",
-    trigger:".zoom",
-    scrub:true,
-     pin: true,
-    // markers:true,
-  },
-});
-
 function playAudio() {
   var audio = document.getElementById("audioPlayer");
   audio.play();

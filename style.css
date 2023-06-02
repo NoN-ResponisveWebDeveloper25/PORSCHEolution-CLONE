@@ -308,7 +308,7 @@ body {
 
 .pagethirteen {
   width: 100%;
-  height: 200vh;
+  height: 100vh;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -319,11 +319,14 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: black;
+  background-color: white;
+}
+.pagethirteen > img {
+  opacity: 1;
 }
 .zoom {
   opacity: 1;
-  scale: 2.2;
+  scale: 2.5;
 }
 
 .zoomout {
@@ -618,7 +621,7 @@ body {
 
   .pagethirteen {
     width: 100%;
-    height: 200vh;
+    height: 100vh;
     background-color: white;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -642,6 +645,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    scale: 2;
   }
 }
 
@@ -657,19 +661,19 @@ body {
     background-color: transparent;
     color: white;
     position: fixed;
-    top: 25%;
+    top: 15vh;
     left: 0%;
     mix-blend-mode: difference;
-    display: none;
+    /* display: none; */
   }
 
   .horizontal-nav > a {
     font-family: heavywala;
-    font-size: 17px;
+    font-size: 12px;
     background-color: transparent;
     text-decoration: none;
     color: white;
-    padding: 10px 25px;
+    padding: 5px 25px;
     font-weight: 500;
     border-bottom: 1px solid rgba(255, 255, 255, 0.445);
   }
@@ -924,7 +928,7 @@ body {
 
   .pagethirteen {
     width: 100%;
-    height: 200vh;
+    height: 100vh;
     background-color: white;
     display: -webkit-box;
     display: -ms-flexbox;
