@@ -195,7 +195,7 @@ body {
 .main {
   width: 100vw;
   overflow-x: hidden;
-  display: none;
+  position: fixed;
 }
 
 .page {
@@ -326,7 +326,7 @@ body {
 }
 .zoom {
   opacity: 1;
-  scale: 2.5;
+  scale: 3.4;
 }
 
 .zoomout {
